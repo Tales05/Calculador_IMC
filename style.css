@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #024059;
+}
+
+div.calculadoraImc {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #008F8C;
+    box-shadow: 1px 1px 1px #008F8C;
+    border-radius: 15px;
+
+}
+
+div.calculadoraImc h1 {
+    padding: 10px;
+    margin-bottom: 1rem;
+    color: #008F8C;
+}
+
+div.informacaImc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.informacaImc input {
+    background: #024059;
+    color: #008F8C;
+    font-weight: bold;
+}
+
+div.informacaImc input::placeholder {
+    color: #008F8C;
+    font-weight: bold;
+}
+
+div.informacaImc input.nome{
+    width: 300px;
+    height: 25px;
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #008f8de8;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+div.pesoAltura {
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div.pesoAltura input{
+    width: 110px;
+    height: 25px;
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #008f8de8;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+div.execImc button {
+    width: 135px;
+    height: 45px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #008F8C;
+    background: #026873b6;
+    font-weight: bold;
+    margin-bottom: 2rem;
+
+}
+
+div.resultadoImc {
+    width: 175px;
+    height: 125px;
+    border: 2px solid #008F8C;
+    padding: 30px;
+    border-radius: 15px;
+    color: #008F8C;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
